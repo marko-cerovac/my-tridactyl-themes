@@ -4,8 +4,9 @@
     --tridactyl-font-family-sans: sans-serif;
     --tridactyl-font-size: 14pt;
     --tridactyl-small-font-size: 14px;
-    --tridactyl-bg: #0F111A;
+    --tridactyl-bg: #090B10;
     --tridactyl-fg: #A6ACCD;
+    --tridactyl-fg-stealth: #464B5D;
     --tridactyl-logo: url("moz-extension://__MSG_@@extension_id__/static/logo/Tridactyl_64px.png");
     --tridactyl-scrollbar-color: auto;
 
@@ -13,7 +14,7 @@
     --tridactyl-status-font-family: var(--tridactyl-font-family);
     --tridactyl-status-font-size: var(--tridactyl-small-font-size);
     --tridactyl-status-bg: var(--tridactyl-bg);
-    --tridactyl-status-fg: var(--tridactyl-fg);
+    --tridactyl-status-fg: var(--tridactyl-fg-stealth);
     --tridactyl-status-border: 1px lightgray solid;
     --tridactyl-status-border-radius: 2px;
 
@@ -35,11 +36,11 @@
 
     /* Element highlights */
     --tridactyl-hint-active-fg: var(--tridactyl-fg);
-    --tridactyl-hint-active-bg: #88ff00;
-    --tridactyl-hint-active-outline: 1px solid #cc0000;
+    --tridactyl-hint-active-bg: #464B5D;
+    --tridactyl-hint-active-outline: 1px solid #84FFFF;
 
     --tridactyl-hint-bg: rgba(255, 255, 0, 0.25);
-    --tridactyl-hint-outline: 1px solid #8f5902;
+    --tridactyl-hint-outline: 1px solid #1F2233;
 
     /* :viewsource */
     --tridactyl-vs-bg: var(--tridactyl-bg);
@@ -49,7 +50,7 @@
     /*commandline*/
 
     --tridactyl-cmdl-bg: var(--tridactyl-bg);
-    --tridactyl-cmdl-fg: var(--tridactyl-fg);
+    --tridactyl-cmdl-fg: var(--tridactyl-fg-stealth);
     --tridactyl-cmdl-line-height: 1.5;
     --tridactyl-cmdl-font-family: monospace;
     --tridactyl-cmdl-font-size: 9pt;
@@ -57,7 +58,7 @@
     /*completions*/
 
     --tridactyl-cmplt-option-height: 1.4em;
-    --tridactyl-cmplt-fg: var(--tridactyl-fg);
+    --tridactyl-cmplt-fg: var(--tridactyl-fg-stealth);
     --tridactyl-cmplt-bg: var(--tridactyl-bg);
     --tridactyl-cmplt-font-size: 10pt;
     --tridactyl-cmplt-font-family: monospace;
