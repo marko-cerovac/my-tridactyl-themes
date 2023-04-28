@@ -39,8 +39,8 @@
     --tridactyl-hint-active-bg: #464B5D;
     --tridactyl-hint-active-outline: 1px solid #84FFFF;
 
-    --tridactyl-hint-bg: rgba(255, 255, 0, 0.25);
-    --tridactyl-hint-outline: 1px solid #1F2233;
+    --tridactyl-hint-bg: #82AAFF99;
+    --tridactyl-hint-outline: 1px solid #82AAFF;
 
     /* :viewsource */
     --tridactyl-vs-bg: var(--tridactyl-bg);
@@ -53,7 +53,7 @@
     --tridactyl-cmdl-fg: var(--tridactyl-fg-stealth);
     --tridactyl-cmdl-line-height: 1.5;
     --tridactyl-cmdl-font-family: monospace;
-    --tridactyl-cmdl-font-size: 9pt;
+    --tridactyl-cmdl-font-size: 10pt;
 
     /*completions*/
 
@@ -77,6 +77,7 @@
     --tridactyl-header-first-bg: #090B10;
     --tridactyl-header-second-bg: #090B10;
     --tridactyl-header-third-bg: #090B10;
+    --tridactyl-header-fg: var(--tridactyl-fg);
     /* eg. What if I dont want liner-gradient as bg?
      *
      * :root .sectionHeader { background: blue; }
