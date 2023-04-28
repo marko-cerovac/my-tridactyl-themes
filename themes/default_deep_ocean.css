@@ -62,7 +62,7 @@
     --tridactyl-cmplt-font-size: 10pt;
     --tridactyl-cmplt-font-family: monospace;
     /* i don't think 0.5px is redered */
-    --tridactyl-cmplt-border-top: 1px solid #232637;
+    --tridactyl-cmplt-border-top: 0px solid #232637;
 
     /* need a better way for naming variables 
      *
@@ -76,7 +76,6 @@
     --tridactyl-header-first-bg: #090B10;
     --tridactyl-header-second-bg: #090B10;
     --tridactyl-header-third-bg: #090B10;
-    --tridactyl-header-fg: var(--tridactyl-fg);
     /* eg. What if I dont want liner-gradient as bg?
      *
      * :root .sectionHeader { background: blue; }
@@ -87,7 +86,7 @@
     --tridactyl-header-font-size: inherit;
     --tridactyl-header-font-weight: bold;
     /* i don't think 0.5px is redered */
-    --tridactyl-header-border-bottom: 1px solid bottom #232637;
+    --tridactyl-header-border-bottom: 0px solid bottom #232637;
 
     /*url style*/
 
