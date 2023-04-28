@@ -14,7 +14,7 @@
     --tridactyl-status-font-size: var(--tridactyl-small-font-size);
     --tridactyl-status-bg: var(--tridactyl-bg);
     --tridactyl-status-fg: var(--tridactyl-fg);
-    --tridactyl-status-border: 1px lightgray solid;
+    --tridactyl-status-border: 1px #232637 solid;
     --tridactyl-status-border-radius: 2px;
 
     /* Search highlight */
@@ -38,7 +38,7 @@
     --tridactyl-hint-active-bg: #464B5D;
     --tridactyl-hint-active-outline: 1px solid #84FFFF;
 
-    --tridactyl-hint-bg: #82AAFF99;
+    --tridactyl-hint-bg: #1F223399;
     --tridactyl-hint-outline: 1px solid #82AAFF;
 
     /* :viewsource */
@@ -62,7 +62,7 @@
     --tridactyl-cmplt-font-size: 10pt;
     --tridactyl-cmplt-font-family: monospace;
     /* i don't think 0.5px is redered */
-    --tridactyl-cmplt-border-top: 1px solid grey;
+    --tridactyl-cmplt-border-top: 1px solid #232637;
 
     /* need a better way for naming variables 
      *
@@ -87,12 +87,12 @@
     --tridactyl-header-font-size: inherit;
     --tridactyl-header-font-weight: bold;
     /* i don't think 0.5px is redered */
-    --tridactyl-header-border-bottom: 1px solid bottom;
+    --tridactyl-header-border-bottom: 1px solid bottom #232637;
 
     /*url style*/
 
     --tridactyl-url-text-decoration: none;
-    --tridactyl-url-fg: #C792EA;
+    --tridactyl-url-fg: #82FFFF;
     --tridactyl-url-bg: var(--tridactyl-bg);
     --tridactyl-url-cursor: pointer;
 
