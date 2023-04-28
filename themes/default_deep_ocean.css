@@ -6,7 +6,6 @@
     --tridactyl-small-font-size: 14px;
     --tridactyl-bg: #090B10;
     --tridactyl-fg: #A6ACCD;
-    --tridactyl-fg-stealth: #464B5D;
     --tridactyl-logo: url("moz-extension://__MSG_@@extension_id__/static/logo/Tridactyl_64px.png");
     --tridactyl-scrollbar-color: auto;
 
@@ -14,7 +13,7 @@
     --tridactyl-status-font-family: var(--tridactyl-font-family);
     --tridactyl-status-font-size: var(--tridactyl-small-font-size);
     --tridactyl-status-bg: var(--tridactyl-bg);
-    --tridactyl-status-fg: var(--tridactyl-fg-stealth);
+    --tridactyl-status-fg: var(--tridactyl-fg);
     --tridactyl-status-border: 1px lightgray solid;
     --tridactyl-status-border-radius: 2px;
 
@@ -50,7 +49,7 @@
     /*commandline*/
 
     --tridactyl-cmdl-bg: var(--tridactyl-bg);
-    --tridactyl-cmdl-fg: var(--tridactyl-fg-stealth);
+    --tridactyl-cmdl-fg: var(--tridactyl-fg);
     --tridactyl-cmdl-line-height: 1.5;
     --tridactyl-cmdl-font-family: monospace;
     --tridactyl-cmdl-font-size: 10pt;
@@ -58,7 +57,7 @@
     /*completions*/
 
     --tridactyl-cmplt-option-height: 1.4em;
-    --tridactyl-cmplt-fg: var(--tridactyl-fg-stealth);
+    --tridactyl-cmplt-fg: var(--tridactyl-fg);
     --tridactyl-cmplt-bg: var(--tridactyl-bg);
     --tridactyl-cmplt-font-size: 10pt;
     --tridactyl-cmplt-font-family: monospace;
