@@ -2,8 +2,8 @@
     /* Generic */
     --tridactyl-font-family: monospace;
     --tridactyl-font-family-sans: sans-serif;
-    --tridactyl-font-size: 12pt;
-    --tridactyl-small-font-size: 12px;
+    --tridactyl-font-size: 14pt;
+    --tridactyl-small-font-size: 14px;
     --tridactyl-bg: #0F111A;
     --tridactyl-fg: #A6ACCD;
     --tridactyl-logo: url("moz-extension://__MSG_@@extension_id__/static/logo/Tridactyl_64px.png");
@@ -73,9 +73,9 @@
 
     /*sectionHeader*/
 
-    --tridactyl-header-first-bg: LightGray;
-    --tridactyl-header-second-bg: #ddd;
-    --tridactyl-header-third-bg: LightGray;
+    --tridactyl-header-first-bg: #090B10;
+    --tridactyl-header-second-bg: #090B10;
+    --tridactyl-header-third-bg: #090B10;
     /* eg. What if I dont want liner-gradient as bg?
      *
      * :root .sectionHeader { background: blue; }
@@ -91,14 +91,14 @@
     /*url style*/
 
     --tridactyl-url-text-decoration: none;
-    --tridactyl-url-fg: #1f9947;
+    --tridactyl-url-fg: #C792EA;
     --tridactyl-url-bg: var(--tridactyl-bg);
     --tridactyl-url-cursor: pointer;
 
     /*option focused*/
 
     --tridactyl-of-fg: var(--tridactyl-fg);
-    --tridactyl-of-bg: #ffec8b;
+    --tridactyl-of-bg: #1A1C25;
 
     /*new tab spoiler box*/
     --tridactyl-highlight-box-bg: rgba(0, 0, 0, 0.07);
